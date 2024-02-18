@@ -22,7 +22,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <h1 className={`${poppins.className} text-white m-5`}>Navbar</h1>
       <body className={inter.className}>{children}</body>
     </html>
   );
