@@ -5,7 +5,7 @@ import LinkIcon from '../../../public/images/link-icon 1.svg';
 
 export default function Navbar() {
     return (
-      <nav className="m-5 flex align-center justify-between">
+      <nav className="m-5 flex mx-auto align-center justify-between max-w-screen-xl">
         <div className="hamburger flex flex-col">
           <span className="block h-1 w-7 bg-white rounded-full mb-1"></span>
           <span className="block h-1 w-5 bg-white rounded-full mb-1"></span>
