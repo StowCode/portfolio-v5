@@ -6,10 +6,10 @@ import LinkIcon from '../../../public/images/link-icon 1.svg';
 export default function Navbar() {
     return (
       <nav className="m-5 flex align-center justify-between">
-        <div className="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
+        <div className="hamburger flex flex-col">
+          <span className="block h-1 w-7 bg-white rounded-full mb-1"></span>
+          <span className="block h-1 w-5 bg-white rounded-full mb-1"></span>
+          <span className="block h-1 w-7 bg-white rounded-full"></span>
         </div>
 
         <div className="logo">
