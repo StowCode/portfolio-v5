@@ -7,11 +7,11 @@ import GitHub_Icon from '../../../public/images/github-icon.svg';
 export default function Hero() {
     return (
         <div className="py-20">
-            <h1 className="mt-10 text-center text-white text-5xl font-bold">
-                Hi, I'm <span className="font-bold text-[var(--clr-accent)]">Mitch Stowman</span>
+            <h1 className="mt-10 text-center text-white text-5xl">
+                Hi, I'm <span className="font-semibold text-[var(--clr-accent)]">Mitch Stowman</span>
             </h1>
-            <p className="text-center text-gray-300 m-10 text-xl font-light">UX Design + Frontend Development</p>
-            <p className="text-center text-gray-300 m-10 text-xl font-light">I turn your ideas into captivating digital experiences, from concept to launch.</p>
+            <p className="text-center text-white m-10 text-xl font-light">UX Design + Frontend Development</p>
+            <p className="text-center text-white m-10 text-xl font-light">I turn your ideas into captivating digital experiences, from concept to launch.</p>
             <div className="flex align-center justify-center">
 
                 <Image
