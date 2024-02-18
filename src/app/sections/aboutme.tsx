@@ -4,7 +4,7 @@ import Download from '../../../public/images/download-icon.svg';
 export default function AboutMe() {
     return (
         <section 
-            className="max-w-screen-xl mx-auto mt-10"
+            className="max-w-screen-xl mx-auto mt-20"
             style={{
                 background:''
             }}
@@ -19,7 +19,7 @@ export default function AboutMe() {
                 <p className="my-4">As a team player, I pride myself on adaptability and overcoming challenges collaboratively. I'm eager to bring my expertise, ideas, and energy to your project, ensuring its success and impact.</p>
             </article>
             
-            <button className="text-[var(--clr-accent)] text-lg items-center font-semibold flex my-10 mx-5 px-5 py-1 border rounded border-[var(--clr-accent)]">
+            <button className="text-[var(--clr-accent)] text-lg items-center font-semibold flex my-10 mx-5 px-5 py-1 border rounded border-white">
                 Resume
                 <Image
                     className="ml-3"

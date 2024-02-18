@@ -5,8 +5,8 @@ export default function WhatIDo() {
                 What <span className="font-bold text-[var(--clr-accent)]">I Do</span>
             </h2>
 
-            <div className="flex">
-                <div className="bg-[var(--clr-grey)] p-5 rounded-lg m-3 grow">
+            <div className="flex max-w-screen-lg mx-auto">
+                <div className="bg-[var(--clr-grey)] p-5 rounded-lg my-3 mx-4 grow">
                     <h3 className="text-[var(--clr-accent)] font-semibold">Frontend Development</h3>
                     <ul className="text-white font-extralight list-disc mx-5">
                         <li className="my-2">Pixel-Perfect, Responsive Development</li>
@@ -15,7 +15,7 @@ export default function WhatIDo() {
                         <li className="my-2">Performance Optimization</li>
                     </ul>
                 </div>
-                <div className="bg-[var(--clr-grey)] p-5 rounded-lg m-3 grow">
+                <div className="bg-[var(--clr-grey)] p-5 rounded-lg my-3 mx-4 grow">
                     <h3 className="text-[var(--clr-accent)] font-semibold">UX Design</h3>
                     <ul className="text-white font-extralight list-disc mx-5">
                         <li className="my-2">User Research and Analysis</li>

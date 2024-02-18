@@ -1,10 +1,10 @@
-import Navbar from './components/navbar';
-import Hero from './components/hero';
-import WhatIDo from './components/whatIdo';
-import AboutMe from './components/aboutme';
-import FeaturedWork from './components/featuredwork';
-import ContactMe from './components/contactme';
-import Footer from './components/footer';
+import Navbar from './sections/navbar';
+import Hero from './sections/hero';
+import WhatIDo from './sections/whatIdo';
+import AboutMe from './sections/aboutme';
+import FeaturedWork from './sections/featuredwork';
+import ContactMe from './sections/contactme';
+import Footer from './sections/footer';
 
 export default function Home() {
   return (
