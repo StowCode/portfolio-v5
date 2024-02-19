@@ -29,19 +29,22 @@ export default function Hero() {
 
                 <a href="https://www.linkedin.com/in/mitchstowman/" target="_blank">
                     <Image
-                    className="mr-8 hover:cursor-pointer hover:scale-105"
+                        className="mr-8 hover:cursor-pointer hover:scale-105"
                         src={LinkedIn_Icon}
                         alt="LinkedIn Icon"
                         width={40}
                 />
                 </a>
 
-                <Image
-                className="mr-8 hover:cursor-pointer hover:scale-105"
-                src={GitHub_Icon}
-                alt="Github Icon"
-                width={40}
-                />
+                <a href="https://github.com/StowCode" target="_blank">
+                    <Image
+                        className="mr-8 hover:cursor-pointer hover:scale-105"
+                        src={GitHub_Icon}
+                        alt="Github Icon"
+                        width={40}
+                    />
+                </a>
+
             </div>
         </div>
     )
