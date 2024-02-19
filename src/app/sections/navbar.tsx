@@ -5,8 +5,8 @@ import LinkIcon from '../../../public/images/link-icon 1.svg';
 
 export default function Navbar() {
     return (
-      <nav className="m-5 flex mx-auto align-center justify-between max-w-screen-xl">
-        <div className="hamburger flex flex-col">
+      <nav className="p-5 fixed w-full flex bg-[var(--clr-dark)] mx-auto align-center justify-between max-w-screen-xl">
+        <div className="hamburger flex flex-col hover:cursor-pointer">
           <span className="block h-1 w-7 bg-white rounded-full mb-1"></span>
           <span className="block h-1 w-5 bg-white rounded-full mb-1"></span>
           <span className="block h-1 w-7 bg-white rounded-full"></span>
@@ -22,7 +22,7 @@ export default function Navbar() {
           />
         </div>
 
-        <div className="links">
+        <div className="links hover:cursor-pointer">
             <Image 
                 className="relative"
                 src={LinkIcon}
