@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className="max-w-screen-xl mx-auto flex items-center justify-between">
           <div className="hamburger flex flex-col hover:cursor-pointer">
             <span className="block h-1 w-7 bg-white rounded-full mb-1"></span>
-            <span className="block h-1 w-5 bg-white rounded-full mb-1"></span>
+            <span className="block h-1 w-6 bg-white rounded-full mb-1"></span>
             <span className="block h-1 w-7 bg-white rounded-full"></span>
           </div>
 
