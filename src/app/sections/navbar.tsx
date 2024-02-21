@@ -13,12 +13,12 @@ export default function Navbar() {
             <span className="block h-1 w-7 bg-white rounded-full"></span>
           </div>
 
-          <div className="logo">
+          <div className="logo flex justify-center">
             <Image 
-              className="relative"
+              className="w-40 sm:w-64"
               src={Logo}
               alt="Stowcode Solutions Logo"
-              width={250}
+              width={240}
               priority
             />
           </div>

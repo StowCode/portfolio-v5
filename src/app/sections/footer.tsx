@@ -3,7 +3,7 @@ import Logo from '../../../public/images/StowcodeSolutions.svg';
 
 export default function Footer() {
     return (
-        <div className="relative mt-20 py-10 px-5 w-full flex items-start justify-between bg-[var(--clr-grey)] text-gray-400 text-sm">
+        <div className="hidden relative mt-20 py-10 px-5 w-full flex-col sm:flex-row items-start justify-between bg-[var(--clr-grey)] text-gray-400 text-sm">
             <Image 
                 src={Logo}
                 alt="Stowcode Solutions Logo"

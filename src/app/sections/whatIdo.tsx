@@ -1,6 +1,6 @@
 export default function WhatIDo() {
     return (
-        <div className="max-w-screen-xl mx-auto mt-10">
+        <div className="sm:max-w-screen-xl overflow-scroll mx-auto mt-10">
             <h2 className="m-5 text-left text-white text-3xl font-bold">
                 What <span className="font-bold text-[var(--clr-accent)]">I Do</span>
             </h2>
