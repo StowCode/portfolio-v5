@@ -3,24 +3,24 @@ import Logo from '../../../public/images/StowcodeSolutions.svg';
 
 export default function Footer() {
     return (
-        <div className="hidden relative mt-20 py-10 px-5 w-full flex-col sm:flex-row items-start justify-between bg-[var(--clr-grey)] text-gray-400 text-sm">
+        <div className="py-10 bg-[var(--clr-grey)] text-white font-extralight flex flex-col sm:flex-row items-center text-center sm:justify-between sm:px-5 sm:items-start">
             <Image 
                 src={Logo}
                 alt="Stowcode Solutions Logo"
                 width={180}
             />
-            <div className="flex mr-20 pr-20">
-                <ul className="border-r-2 border-gray-400 px-10">
+            <div className="pt-5 sm:pt-0 sm:flex text-sm">
+                <ul className="py-3 sm:py-0 border-b-2 border-gray-400 sm:border-b-0 sm:text-left sm:border-r-2 sm:px-3 md:px-10">
                     <li>Frontend Developer</li>
                     <li>UX Designer</li>
                 </ul>
-                <ul className="border-r-2 border-gray-400 px-10">
+                <ul className="py-3 sm:py-0 border-b-2 border-gray-400 sm:border-b-0 sm:text-left sm:border-r-2 sm:px-3 md:px-10">
                     <li>Welcome</li>
                     <li>About Me</li>
                     <li>Featured Work</li>
                     <li>Contact</li>
                 </ul>
-                <ul className="px-10">
+                <ul className="py-3 sm:py-0 sm:text-left sm:px-3 md:px-10">
                     <li>Links</li>
                     <li>
                         Link Row
