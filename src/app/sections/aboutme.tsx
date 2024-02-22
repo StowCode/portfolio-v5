@@ -4,7 +4,7 @@ import Download from '../../../public/images/download-icon.svg';
 export default function AboutMe() {
     return (
         <section 
-            className="hidden max-w-screen-xl mx-auto mt-20"
+            className="max-w-screen-xl mx-auto mt-20"
             style={{
                 background:''
             }}
