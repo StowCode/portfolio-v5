@@ -1,4 +1,4 @@
-import Navbar from './sections/navbar';
+import Navbar from '../app/sections/navbar/navbar';
 import Hero from './sections/hero';
 import WhatIDo from './sections/whatIdo';
 import AboutMe from './sections/aboutme';
