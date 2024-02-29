@@ -5,6 +5,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '../../../../public/images/StowcodeSolutions.svg';
 import LinkIcon from '../../../../public/images/link-icon 1.svg';
+import MenuIcon from '../../../../public/bars.svg';
+import XIcon from '../../../../public/x.svg';
 import "./navbar.css";
 
 export default function Navbar() {
@@ -20,19 +22,32 @@ export default function Navbar() {
     return (
       <nav className="p-5 fixed w-full bg-[var(--clr-dark)] mx-auto">
         <div className="max-w-screen-xl mx-auto flex items-center justify-between">
-          <div onClick={menuToggle} className="hamburger flex flex-col hover:cursor-pointer">
-            <span className="block h-1 w-7 bg-white rounded-full mb-1"></span>
-            <span className="block h-1 w-6 bg-white rounded-full mb-1"></span>
-            <span className="block h-1 w-7 bg-white rounded-full"></span>
-          </div>
+          { menuOpen ?
+          <Image 
+              className="hover:cursor-pointer z-50"
+              src={MenuIcon}
+              alt="Menu Icon"
+              height={30}
+              onClick={menuToggle}
+            />
+            :
+          <Image 
+            className="hover:cursor-pointer z-50 stroke-white"
+            src={XIcon}
+            alt="X Icon"
+            height={30}
+            onClick={menuToggle}
+          />
+          }
 
-          { menuOpen ? 
-          <ul id="mobile-navbar" className="">
-            <li>Link 1</li>
-            <li>Link 2</li>
-            <li>Link 3</li>
+          { !menuOpen ? 
+          <ul id="mobile-navbar" className="absolute left-0 top-0 bg-[var(--clr-grey)] z-40 h-screen pt-20">
+            <li onClick={menuToggle} className="text-white m-5 px-5">What I Do</li>
+            <li onClick={menuToggle} className="text-white m-5 px-5">About Me</li>
+            <li onClick={menuToggle} className="text-white m-5 px-5">Featured Work</li>
+            <li onClick={menuToggle} className="text-white m-5 px-5">Contact</li>
           </ul>
-          : <div></div>}
+          : <span className="absolute"></span>}
 
           <div className="logo flex justify-center">
             <Image 

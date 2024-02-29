@@ -25,6 +25,7 @@ export default function Hero() {
                     src={Instagram_Icon}
                     alt="Instagram Icon"
                     width={40}
+                    height={40}
                 />
 
                 <a href="https://www.linkedin.com/in/mitchstowman/" target="_blank">
