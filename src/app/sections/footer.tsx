@@ -1,5 +1,9 @@
 import Image from 'next/image';
 import Logo from '../../../public/images/StowcodeSolutions.svg';
+import Email_Icon from '../../../public/images/email-icon.svg';
+import Instagram_Icon from '../../../public/images/instagram-icon.svg';
+import LinkedIn_Icon from '../../../public/images/linkedin-icon.svg';
+import GitHub_Icon from '../../../public/images/github-icon.svg';
 
 export default function Footer() {
     return (
@@ -22,8 +26,27 @@ export default function Footer() {
                 </ul>
                 <ul className="py-3 sm:py-0 sm:text-left sm:px-3 md:px-10">
                     <li>Links</li>
-                    <li>
-                        Link Row
+                    <li className="flex items-center mt-1">
+                        <Image 
+                            src={Email_Icon}
+                            alt="email icon"
+                            height={15}
+                            className="mr-2 hover:cursor-pointer"/>
+                        <Image 
+                            src={Instagram_Icon}
+                            alt="email icon"
+                            height={15}
+                            className="mr-2 hover:cursor-pointer"/>
+                        <Image 
+                            src={LinkedIn_Icon}
+                            alt="email icon"
+                            height={15}
+                            className="mr-2 hover:cursor-pointer"/>
+                        <Image 
+                            src={GitHub_Icon}
+                            alt="email icon"
+                            height={15}
+                            className="hover:cursor-pointer"/>
                     </li>
                 </ul>
             </div>
