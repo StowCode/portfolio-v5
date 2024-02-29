@@ -7,7 +7,6 @@ import Logo from '../../../../public/images/StowcodeSolutions.svg';
 import LinkIcon from '../../../../public/images/link-icon 1.svg';
 import MenuIcon from '../../../../public/bars.svg';
 import XIcon from '../../../../public/x.svg';
-import "./navbar.css";
 
 export default function Navbar() {
 
@@ -17,6 +16,21 @@ export default function Navbar() {
       setMenuOpen(prevMenuOpen => !prevMenuOpen);
       console.log(menuOpen)
       console.log('clicked');
+    }
+
+    function scrollToSection(sectionId: string) {
+      const section = document.getElementById(sectionId);
+      if (section) {
+          section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      menuToggle(); // Close the mobile menu after clicking a link
+    }
+
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
     }
 
     return (
@@ -42,14 +56,14 @@ export default function Navbar() {
 
           { !menuOpen ? 
           <ul id="mobile-navbar" className="absolute left-0 top-0 bg-[var(--clr-grey)] z-40 h-screen pt-20">
-            <li onClick={menuToggle} className="text-white m-5 px-5">What I Do</li>
-            <li onClick={menuToggle} className="text-white m-5 px-5">About Me</li>
-            <li onClick={menuToggle} className="text-white m-5 px-5">Featured Work</li>
-            <li onClick={menuToggle} className="text-white m-5 px-5">Contact</li>
+            <li onClick={() => scrollToSection('what-i-do')} className="text-white m-5 px-5 hover:cursor-pointer">What I Do</li>
+            <li onClick={() => scrollToSection('about-me')} className="text-white m-5 px-5 hover:cursor-pointer">About Me</li>
+            <li onClick={() => scrollToSection('featured-work')} className="text-white m-5 px-5 hover:cursor-pointer">Featured Work</li>
+            <li onClick={() => scrollToSection('contact')} className="text-white m-5 px-5 hover:cursor-pointer">Contact</li>
           </ul>
           : <span className="absolute"></span>}
 
-          <div className="logo flex justify-center">
+          <div onClick={scrollToTop} className="logo flex justify-center hover:cursor-pointer">
             <Image 
               className="w-40 sm:w-64"
               src={Logo}

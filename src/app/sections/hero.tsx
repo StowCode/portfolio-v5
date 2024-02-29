@@ -6,7 +6,7 @@ import GitHub_Icon from '../../../public/images/github-icon.svg';
 
 export default function Hero() {
     return (
-        <div className="py-20">
+        <div id="hero" className="py-20">
             <h1 className="mt-20 text-center text-white text-3xl sm:text-5xl">
                 Hi, I'm <span className="font-semibold text-[var(--clr-accent)]">Mitch Stowman</span>
             </h1>

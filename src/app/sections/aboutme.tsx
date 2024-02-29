@@ -3,7 +3,8 @@ import Download from '../../../public/images/download-icon.svg';
 
 export default function AboutMe() {
     return (
-        <section 
+        <section
+            id="about-me"
             className="max-w-screen-xl mx-auto mt-20"
             style={{
                 background:''
