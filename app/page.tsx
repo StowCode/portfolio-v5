@@ -1,4 +1,4 @@
-import Navbar from '../app/sections/navbar/navbar';
+import Navbar from './navbar/navbar';
 import Hero from './sections/hero';
 import WhatIDo from './sections/whatIdo';
 import AboutMe from './sections/aboutme';
@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <Hero />
+{/*       <Hero />
       <WhatIDo />
       <AboutMe />
       <FeaturedWork />
       <ContactMe />
-      <Footer />
+      <Footer /> */}
     </main>
   );
 }

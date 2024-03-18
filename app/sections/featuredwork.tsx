@@ -1,8 +1,8 @@
 import Project from '../components/project';
-import Arch from '../../../public/images/arch-screenshot.png';
-import Space from '../../../public/images/Space-screenshot.jpg';
-import Bitcoin from '../../../public/images/bitcoin-alarm.jpg';
-import Sneakers from '../../../public/images/sneakers.jpg';
+import Arch from '../../public/images/arch-screenshot.png';
+import Space from '../../public/images/Space-screenshot.jpg';
+import Bitcoin from '../../public/images/bitcoin-alarm.jpg';
+import Sneakers from '../../public/images/sneakers.jpg';
 
 export default function FeaturedWork() {
     return (
@@ -38,7 +38,7 @@ export default function FeaturedWork() {
             <Project 
                 title="Gilfoyles Bitcoin Alarm"
                 description="Crafted with React and powered by the CoinGecko API, this application (utilizing a trendy neumorphism design) offers users the ability to create personalized price alerts for Bitcoin. Fans of 'Silicon Valley' will enjoy this more than most."
-                tags={["HTML", "CSS", "React"]}
+                tags={["HTML", "CSS", 'React']}
                 image={Bitcoin}
                 githubLink="https://github.com/StowCode/crypto-tracker"
                 deploymentLink="https://gilfoyles-bitcoin-alarm-kwk8q7vj2-stowcode.vercel.app/"

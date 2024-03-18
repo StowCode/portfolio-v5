@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from 'next/image';
-import Arrow from '../../../public/images/arrow-1.png'
+import Arrow from '../../public/images/arrow-1.png'
 
 interface ProjectProps {
     title: string;

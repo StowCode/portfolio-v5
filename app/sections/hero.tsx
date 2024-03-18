@@ -1,25 +1,11 @@
 import Image from 'next/image';
-import Email_Icon from '../../../public/images/email-icon.svg';
-import Instagram_Icon from '../../../public/images/instagram-icon.svg';
-import LinkedIn_Icon from '../../../public/images/linkedin-icon.svg';
-import GitHub_Icon from '../../../public/images/github-icon.svg';
+import Email_Icon from '../../public/images/email-icon.svg';
+import Instagram_Icon from '../../public/images/instagram-icon.svg';
+import LinkedIn_Icon from '../../public/images/linkedin-icon.svg';
+import GitHub_Icon from '../../public/images/github-icon.svg';
 
 export default function Hero() {
-    
-/*     var i = 0;
-    var txt = 'Animated Header Component';
-    var speed = 75; // Duration of Typewrite
 
-    function typeWriter() {
-    if (i < txt.length) {
-        document.getElementById("demo").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-    }
-    }
-
-    window.onload(typeWriter()) */
-    
     return (
         <div id="hero" className="py-20">
             <h1 className="mt-20 text-center text-white text-3xl sm:text-5xl">

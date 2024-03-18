@@ -3,10 +3,10 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from '../../../../public/images/StowcodeSolutions.svg';
-import LinkIcon from '../../../../public/images/link-icon 1.svg';
-import MenuIcon from '../../../../public/bars.svg';
-import XIcon from '../../../../public/x.svg';
+import Logo from '../../public/images/StowcodeSolutions.svg';
+import LinkIcon from '../../public/images/link-icon 1.svg';
+import MenuIcon from '../../public/bars.svg';
+import XIcon from '../../public/x.svg';
 
 export default function Navbar() {
 

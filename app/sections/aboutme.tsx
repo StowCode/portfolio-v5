@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Download from '../../../public/images/download-icon.svg';
+import Download from '../../public/images/download-icon.svg';
 import woodBackground from '../../../public/images/pexels-fwstudio-139309.jpg';
 
 export default function AboutMe() {

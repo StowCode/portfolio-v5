@@ -1,11 +1,11 @@
 'use client'
 
 import Image from 'next/image';
-import Logo from '../../../public/images/StowcodeSolutions.svg';
-import Email_Icon from '../../../public/images/email-icon.svg';
-import Instagram_Icon from '../../../public/images/instagram-icon.svg';
-import LinkedIn_Icon from '../../../public/images/linkedin-icon.svg';
-import GitHub_Icon from '../../../public/images/github-icon.svg';
+import Logo from '../../public/images/StowcodeSolutions.svg';
+import Email_Icon from '../../public/images/email-icon.svg';
+import Instagram_Icon from '../../public/images/instagram-icon.svg';
+import LinkedIn_Icon from '../../public/images/linkedin-icon.svg';
+import GitHub_Icon from '../../public/images/github-icon.svg';
 
 export default function Footer() {
 
