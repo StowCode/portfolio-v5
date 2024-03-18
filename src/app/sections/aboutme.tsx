@@ -16,15 +16,17 @@ export default function AboutMe() {
                     <p className="my-4">I pride myself on adaptability and overcoming challenges collaboratively. I'm eager to bring my expertise, ideas, and energy to your project, ensuring its success.</p>
                 </article>
                 
-                <button className="text-[var(--clr-accent)] text-lg items-center font-semibold flex my-10 mx-5 px-5 py-1 border rounded border-white">
-                    Resume
-                    <Image
-                        className="ml-3"
-                        src={Download}
-                        alt="Download Button for Resume"
-                        height={20}
-                    />
-                </button>
+                <a href="/Stowman-Resume.pdf" download>
+                    <button className="text-[var(--clr-accent)] text-lg items-center font-semibold flex my-10 mx-5 px-5 py-1 border rounded border-white">
+                        Resume
+                        <Image
+                            className="ml-3"
+                            src={Download}
+                            alt="Download Button for Resume"
+                            height={20}
+                        />
+                    </button>
+                </a>
             </div>
         </section>
     )
