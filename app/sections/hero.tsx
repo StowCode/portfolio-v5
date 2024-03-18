@@ -9,7 +9,8 @@ export default function Hero() {
     return (
         <div id="hero" className="py-20">
             <h1 className="mt-20 text-center text-white text-3xl sm:text-5xl">
-                Hi, I'm <span className="font-semibold text-[var(--clr-accent)]">Mitch Stowman</span>
+                {"Hi, I'm "}
+                <span className="font-semibold text-[var(--clr-accent)]">Mitch Stowman</span>
             </h1>
             <p className="text-center text-white m-10 sm:text-xl text-l font-light">UX Designer + Frontend Developer</p>
             <p className="text-center text-white m-10 sm:text-xl text-l font-light">I turn your ideas into captivating digital experiences, from concept to launch.</p>
