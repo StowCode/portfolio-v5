@@ -10,7 +10,7 @@ export default function ContactMe() {
             </h2>
 
             <form
-                action="https://formsubmit.co/mitchellstowman@email.com" 
+                action="https://formsubmit.co/mitchellstowman@gmail.com" 
                 method="POST" 
                 className="flex flex-col sm:w-full w-11/12 max-w-screen-sm mx-5"
                 >

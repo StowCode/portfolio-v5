@@ -15,20 +15,24 @@ export default function Hero() {
             <p className="text-center text-white m-10 sm:text-xl text-l font-light">UX Designer + Frontend Developer</p>
             <p className="text-center text-white m-10 sm:text-xl text-l font-light">I turn your ideas into captivating digital experiences, from concept to launch.</p>
             <div className="flex align-center justify-center">
+                <a href="mailto:mitchellstowman@gmail.com" target="_blank">
+                    <Image
+                    className="mr-8 hover:cursor-pointer hover:scale-105 sm:w-10 w-8" 
+                        src={Email_Icon}
+                        alt="Email Icon"
+                        width={40}
+                    />
+                </a>
 
-                <Image
-                className="mr-8 hover:cursor-pointer hover:scale-105 sm:w-10 w-8" 
-                    src={Email_Icon}
-                    alt="Email Icon"
-                    width={40}
-                />
-                <Image
-                className="mr-8 hover:cursor-pointer hover:scale-105 sm:w-10 w-8"
-                    src={Instagram_Icon}
-                    alt="Instagram Icon"
-                    width={40}
-                    height={40}
-                />
+                <a href="https://www.instagram.com/mitch.stowman/" target="_blank">
+                    <Image
+                    className="mr-8 hover:cursor-pointer hover:scale-105 sm:w-10 w-8"
+                        src={Instagram_Icon}
+                        alt="Instagram Icon"
+                        width={40}
+                        height={40}
+                    />
+                </a>
 
                 <a href="https://www.linkedin.com/in/mitchstowman/" target="_blank">
                     <Image
