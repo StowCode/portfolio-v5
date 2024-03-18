@@ -25,7 +25,7 @@ export default function FeaturedWork() {
                 tags={["HTML", "CSS", "JavaScript"]}
                 image={Space}
                 githubLink="https://github.com/StowCode"
-                deploymentLink="https://arch-studio-riheuypvs-stowcode.vercel.app/"
+                deploymentLink="https://space-tourism-pied-psi.vercel.app/"
             />
             <Project 
                 title="Sneakers"
