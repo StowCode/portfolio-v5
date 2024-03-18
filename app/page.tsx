@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-{/*       <Hero />
+      <Hero />
       <WhatIDo />
       <AboutMe />
       <FeaturedWork />
       <ContactMe />
-      <Footer /> */}
+      <Footer />
     </main>
   );
 }
