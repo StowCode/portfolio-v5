@@ -15,7 +15,7 @@ export default function ContactMe() {
                 <input type="hidden" name="_captcha" value="false"></input>
                 <input type="Name" name="Name" className="mb-5 text-white bg-transparent border-b-2 border-[var(--clr-accent)] py-2" placeholder="Name"></input>
                 <input type="Email" name="Email" className="mb-5 text-white bg-transparent border-b-2 border-[var(--clr-accent)] py-2" placeholder="Email"></input>
-                <input className="bg-transparent pb-10 border-b-2 border-[var(--clr-accent)] text-white" placeholder="Message"></input>
+                <input type="Message" name="Message" className="bg-transparent pb-10 border-b-2 border-[var(--clr-accent)] text-white" placeholder="Message"></input>
                 <button className="w-32 font-bold text-[var(--clr-dark)] bg-[--clr-accent] rounded-sm mt-5 p-1 hover:cursor-pointer" type="submit">Send</button>
             </form>
         </div>
