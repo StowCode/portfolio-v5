@@ -9,7 +9,7 @@ export default function ContactMe() {
                 Contact <span className="font-bold text-[var(--clr-accent)]">Me</span>
             </h2>
 
-            <form action="https://formsubmit.co/6e5f5e258bfbdab8c20dd68c8904d89f" method="POST" className="flex flex-col sm:w-full w-11/12 max-w-screen-sm mx-5">
+{/*             <form action="https://formsubmit.co/6e5f5e258bfbdab8c20dd68c8904d89f" method="POST" className="flex flex-col sm:w-full w-11/12 max-w-screen-sm mx-5">
                 <input type="hidden" name="_template" value="table"></input>
                 <input type="hidden" name="_next" value="https://stowcode.tech"></input>
                 <input type="hidden" name="_captcha" value="false"></input>
@@ -17,6 +17,19 @@ export default function ContactMe() {
                 <input type="Email" name="Email" className="mb-5 text-white bg-transparent border-b-2 border-[var(--clr-accent)] py-2" placeholder="Email"></input>
                 <input type="Message" name="Message" className="bg-transparent pb-10 border-b-2 border-[var(--clr-accent)] text-white" placeholder="Message"></input>
                 <button className="w-32 font-bold text-[var(--clr-dark)] bg-[--clr-accent] rounded-sm mt-5 p-1 hover:cursor-pointer" type="submit">Send</button>
+            </form> */}
+            // Formspark.io
+            <form action="https://submit-form.com/RClQlOhku" className="flex flex-col sm:w-full w-11/12 max-w-screen-sm mx-5">
+                <input type="text" id="name" name="name" placeholder="Name" required className="mb-5 text-white bg-transparent border-b-2 border-[var(--clr-accent)] py-2"/>
+                <input type="email" id="email" name="email" placeholder="Email" required className="mb-5 text-white bg-transparent border-b-2 border-[var(--clr-accent)] py-2"/>
+                <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Message"
+                    required
+                    className="bg-transparent pb-10 border-b-2 border-[var(--clr-accent)] text-white"
+                ></textarea>
+                <button type="submit" className="w-32 font-bold text-[var(--clr-dark)] bg-[--clr-accent] rounded-sm mt-5 p-1 hover:cursor-pointer">Send</button>
             </form>
         </div>
     )
