@@ -9,11 +9,7 @@ export default function ContactMe() {
                 Contact <span className="font-bold text-[var(--clr-accent)]">Me</span>
             </h2>
 
-            <form
-                action="https://formsubmit.co/mitchellstowman@gmail.com" 
-                method="POST" 
-                className="flex flex-col sm:w-full w-11/12 max-w-screen-sm mx-5"
-                >
+            <form action="https://formsubmit.co/6e5f5e258bfbdab8c20dd68c8904d89f" method="POST" className="flex flex-col sm:w-full w-11/12 max-w-screen-sm mx-5">
                 <input type="hidden" name="_template" value="table"></input>
                 <input type="hidden" name="_next" value="https://stowcode.tech"></input>
                 <input type="Name" name="Name" className="mb-5 text-white bg-transparent border-b-2 border-[var(--clr-accent)] py-2" placeholder="Name"></input>
