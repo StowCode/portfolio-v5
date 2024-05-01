@@ -25,12 +25,14 @@ const Project: React.FC<ProjectProps> = ({title, description, tags, image, githu
                 </div>
                 
                 <div className="flex mt-5 sm:mb-0 mb-5 sm:justify-normal justify-center">
+                    { githubLink ?
                     <a href={githubLink} target="blank">
-                        <button className="text-[var(--clr-accent)] text-lg items-center font-semibold flex px-5 py-1 border rounded border-white sm:mr-5 mr-10">GitHub</button>
-                    </a>
+                        <button className="text-[var(--clr-accent)] text-lg items-center font-semibold flex px-5 py-1 border rounded border-white sm:mr-5 mr-10 hover:text-white hover:border-red">GitHub</button>
+                    </a> : <></>}
                     
+                    { deploymentLink ? 
                     <a href={deploymentLink} target="blank">
-                    <button className="border-b-[1px] flex items-center h-full py-1 text-lg">
+                    <button className="border-b-[1px] flex items-center h-full py-1 text-lg hover:text-[var(--clr-accent)]">
                         
                         View Project
                         <Image
@@ -40,7 +42,7 @@ const Project: React.FC<ProjectProps> = ({title, description, tags, image, githu
                             height={10}
                         />
                     </button>
-                    </a>
+                    </a> : <></>}
 
                 </div>
             </div>

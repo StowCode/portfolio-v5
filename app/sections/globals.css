@@ -45,7 +45,7 @@ body {
 
 .fade-down--run {
   opacity: 1;
-  animation: fade-down 500ms forwards;
+  animation: fade-down 300ms forwards;
 }
 
 @keyframes fade-down {
@@ -64,7 +64,7 @@ body {
 }
 
 .fade-in--run {
-  animation: fade-in 500ms forwards;
+  animation: fade-in 300ms forwards;
 }
 
 @keyframes fade-in {
