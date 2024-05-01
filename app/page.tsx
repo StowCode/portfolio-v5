@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main>
       <Head>
-        <meta name="image" property="og:image" content="../app/opengraph-image.jpg" />
+        <meta name="image" property="og:image" content="https://www.flickr.com/photos/194765725@N05/53692433079/in/dateposted-public/" />
       </Head>
       <Navbar />
       <Hero />
