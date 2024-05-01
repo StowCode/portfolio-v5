@@ -5,6 +5,7 @@ import Bitcoin from '../../public/images/bitcoin-alarm.jpg';
 import Sneakers from '../../public/images/sneakers.jpg';
 
 export default function FeaturedWork() {
+    
     return (
         <div id="featured-work" className="max-w-screen-xl mx-auto mt-20 mb-5">
             <h2 className="m-5 text-left text-white text-3xl font-bold">
