@@ -12,7 +12,10 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Stowcode Solutions",
-  description: "Custom Web Design and Development"
+  description: "Custom Web Design and Development",
+  openGraph: {
+    images:'https://www.flickr.com/photos/194765725@N05/53692433079/in/dateposted-public/'
+  }
 };
 
 export default function RootLayout({
