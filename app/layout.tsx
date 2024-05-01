@@ -12,7 +12,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Stowcode Solutions",
-  description: "Portfolio Built with Next.js",
+  description: "Custom Web Design and Development"
 };
 
 export default function RootLayout({
