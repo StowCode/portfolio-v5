@@ -22,7 +22,8 @@ export default function AboutMe() {
                     </div>
                 </article>
                 
-                <a href="/Stowman-Resume.pdf" download>
+                
+                {/* <a href="/Stowman-Resume.pdf" download>
                     <button className="text-[var(--clr-accent)] text-lg items-center font-semibold flex my-10 mx-5 px-5 py-1 border rounded border-white">
                         Resume
                         <Image
@@ -32,7 +33,7 @@ export default function AboutMe() {
                             height={20}
                         />
                     </button>
-                </a>
+                </a> */}
             </div>
         </section>
     )
