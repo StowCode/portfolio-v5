@@ -37,3 +37,43 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+/* Animations */
+.fade-down--hold {
+  opacity: 0;
+}
+
+.fade-down--run {
+  opacity: 1;
+  animation: fade-down 500ms forwards;
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.fade-in--hold {
+  opacity: 0;
+}
+
+.fade-in--run {
+  animation: fade-in 500ms forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}

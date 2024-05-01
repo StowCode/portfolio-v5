@@ -7,8 +7,10 @@ import Logo from '../../public/images/StowcodeSolutions.svg';
 import LinkIcon from '../../public/images/link-icon 1.svg';
 import MenuIcon from '../../public/bars.svg';
 import XIcon from '../../public/x.svg';
+import useFadeDown from '../hooks/fade-down';
 
 export default function Navbar() {
+    useFadeDown();
 
     const [menuOpen, setMenuOpen] = useState(false);
     const [linkOpen, setLinkOpen] = useState(false);
@@ -37,7 +39,7 @@ export default function Navbar() {
     }
 
     return (
-      <nav className="p-5 fixed w-full bg-[var(--clr-dark)] mx-auto">
+      <nav className="p-5 fixed w-full bg-[var(--clr-dark)] mx-auto z-10 fade-down--hold">
         <div className="max-w-screen-xl mx-auto flex items-center justify-between">
           { !menuOpen ?
           <Image 

@@ -1,13 +1,16 @@
+'use client'
 import Image from 'next/image';
 import Email_Icon from '../../public/images/email-icon.svg';
 import Instagram_Icon from '../../public/images/instagram-icon.svg';
 import LinkedIn_Icon from '../../public/images/linkedin-icon.svg';
 import GitHub_Icon from '../../public/images/github-icon.svg';
+import useFadeInAnimation from '../hooks/fade-in';
 
 export default function Hero() {
+    useFadeInAnimation();
 
     return (
-        <div id="hero" className="py-20">
+        <div id="hero" className="py-20 z-0 fade-in--hold">
             <h1 className="mt-20 text-center text-white text-3xl sm:text-5xl">
                 {"Hi, I'm "}
                 <span className="font-semibold text-[var(--clr-accent)]">Mitch Stowman</span>
